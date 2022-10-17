@@ -1,0 +1,12 @@
+package com.example.Spring.Project.Service;
+
+import com.example.Spring.Project.entity.Employee;
+
+public class EmployeeServiceImpl implements EmployeeService{
+
+	
+	public Employee createEmp(Employee emp) {
+		return null;
+	}
+
+}

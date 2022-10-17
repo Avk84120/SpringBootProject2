@@ -1,0 +1,16 @@
+package com.example.Spring.Project.Service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.example.Spring.Project.entity.Employee;
+
+
+
+@Service 
+public interface EmployeeService {
+	public Employee createEmp(Employee emp);
+	public List<Employee> getEmployees();
+
+}
